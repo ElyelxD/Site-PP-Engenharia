@@ -1,13 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PP Engenharia</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!--Chamar Animação-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <!--Chamar font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <!--Chamar Icone-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Chamar style-->
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <title>Patrícia Pedroso Engenharia</title>
 </head>
 <body>
-    <div>
-        <p>Em breve</p>
+  <!--HEADER-->
+  <div class="bg-home">
+    <header>
+      <nav class="header-content container">
+        <div class="header-icons">
+          <a href="https://www.instagram.com/patriciaengassessoria/" target="_blank">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+          </a>
+          <a href="https://www.facebook.com/people/Patrícia-V-Pedroso-Assessoria-em-Engenharia/61552229721222/?mibextid=LQQJ4d" target="_blank">
+            <i class="fa-brands fa-facebook fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/patrícia-v-pedroso/about/" target="_blank">
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+          </a>
+        </div>
+        <div class="header-logo">
+          <img
+            src="img/logo.png"
+            alt="Logo PP Engenharia"
+          />
+        </div>
+        <div>
+          <a class="header-button">
+          </a>
+        </div>
+      </nav>
+
+      <main class="hero container">
+        <h1>Patrícia Pedroso Engenharia</h1>
+        <p>Serviços de Engenharia Civil</p>
+        <a 
+          href="https://api.whatsapp.com/send?phone=5547999206447&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento" 
+          class="button-contact" 
+          target="_blank"
+        >
+          Entrar em contato
+        </a>
+      </main>
+    </header>
+  </div>
+
+  <!--Sobre-->
+  <section class="about">
+    <div class="container about-content">
+      <div>
+        <img
+          src="img/sobre.png"
+          alt="Sobre"
+        />
+      </div>
+
+      <div class="about-description">
+        <h2>Atendimento</h2>
+        <p>Horário de funcionamento:<br>terça a sexta-feira: <strong>09:00 às 18:00</strong> <br>sábado: <strong>08:00 às 12:00</strong></p>
+      </div>
     </div>
+  </section>
+
+  <!--Serviços-->
+
+  <section class="services">
+    <div class="services-content container">
+      <h2>Serviços</h2>
+      <p> </p>
+    </div>
+
+    <section class="projetos-regularizacoes-vistorias">
+      <div class="projeto-regularizacao-vistoria">
+        <img
+          src="img/projeto.jpg"
+          alt="Projeto"
+        />
+        <div class="projeto-regularizacao-vistoria-info">
+          <strong>Projetos Civis</strong><br>
+          <p>Projeto de Terraplanagem;<br>
+            Projeto de Arquitetura;<br>
+            Projeto Estrutural;<br>
+            Projeto Hidrossanitário;<br>
+            Projeto de Segurança;<br>
+            Contra Incêndio e Pânico;</p><br>
+            <a href='https://api.whatsapp.com/send?phone=5547999206447&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento%20de%20projeto%20civil.' target="_blank">Orçamento</a>
+        </div>
+      </div>
+      <div class="projeto-regularizacao-vistoria">
+        <img
+          src="img/regularizacao.jpg"
+          alt="Regularização"
+        />
+        <div class="projeto-regularizacao-vistoria-info">
+          <strong>Regularização de Imóveis</strong><br>
+          <p>Análise dos documentos;<br>
+            Aprovação na prefeitura;<br>
+            Certidão Negativa de Débitos da Receita Federal;<br>
+            Averbação no Cartório de Imóveis;<br>
+            Instituição de Condomínio;<br>
+            Desdobro e Desmembramento;<br>
+            Unificação;<br>
+            Parcelamento de Solo;<br>
+            Retificação de área;<br>
+            Projetos para Processo de Usucapião;</p><br>
+            <a href='https://api.whatsapp.com/send?phone=5547999206447&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento%20de%20regularização.' target="_blank">Orçamento</a>
+        </div>
+      </div>
+      <div class="projeto-regularizacao-vistoria">
+        <img
+          src="img/vistoria.jpg"
+          alt="Projeto"
+        />
+        <div class="projeto-regularizacao-vistoria-info">
+          <strong>Vistorias e Laudos</strong><br>
+          <p>Laudo de entrega e recebimento de obras;<br>
+            Laudo cautelar de vizinhança;<br>
+            Laudo de acessibilidade;</p><br>
+            <a href='https://api.whatsapp.com/send?phone=5547999206447&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento%20de%20vistoria.' target="_blank">Orçamento</a>
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <!--Footer-->
+
+  <div class="services">
+    <h2>Atendemos Jaraguá do Sul e região até 40KM</h2>
+  </div>
+
+  <iframe 
+    width="100%"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228522.6346127513!2d-49.27490540449167!3d-26.498691542636056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94de94ec45c735ad%3A0xd528660baaf1e754!2sJaragu%C3%A1%20do%20Sul%20-%20Barra%20do%20Rio%20do%20Cerro%2C%20Jaragu%C3%A1%20do%20Sul%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1697121783156!5m2!1spt-BR!2sbr" 
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <footer class="footer">
+      <div class="footer-icons">
+
+        <a href="https://www.instagram.com/patriciaengassessoria/" target="_blank">
+          <i class="fa-brands fa-instagram fa-2x"></i>
+        </a>
+
+        <a href="https://www.facebook.com/people/Patrícia-V-Pedroso-Assessoria-em-Engenharia/61552229721222/?mibextid=LQQJ4d" target="_blank" >
+          <i class="fa-brands fa-facebook fa-2x"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/company/patrícia-v-pedroso/about/" target="_blank">
+          <i class="fa-brands fa-linkedin fa-2x"></i>
+        </a>
+      </div>
+
+    <p class="copyright">Copyright 2023 | Patrícia Pedroso Engenharia - Todos os direitos reservados</p> 
+    <p>Made by <a href="https://www.linkedin.com/company/lira-solutions/?viewAsMember=true" target="_blank">Lira Solutions</a></p>
+
+  </footer>
+  
+    
+  <!--Button Whatsapp-->
+  <a 
+    href="https://api.whatsapp.com/send?phone=5547999206447&text=Olá,%20Gostaria%20de%20fazer%20um%20orçamento"
+    class="btn-whatsapp"
+    target="_blank"
+    data-aos="zoom-in-up" data-aos-delay="400"
+  >
+    <img src="img/whatsapp.png" alt="Botão Whatsapp"/>
+    <span class="tooltip-text">Faça um orçamento</span>
+  </a>
+
+
+  <script src="script.js"></script>
 </body>
 </html>
