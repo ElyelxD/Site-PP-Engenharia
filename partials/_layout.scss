@@ -246,7 +246,6 @@
   color: $white-normal;
 }
 
-
 .footer-icons{
   display: flex;
   gap: 8px;
@@ -267,7 +266,6 @@
   bottom: 10px;
   right: 10px;
   z-index: 99;
-
 
   img{
     max-width: 74px;
@@ -292,7 +290,6 @@
   color: $secondary-normal;
   opacity: 0;
   transition: opacity 0.5s;
-  
 }
 
 .btn-whatsapp:hover .tooltip-text{

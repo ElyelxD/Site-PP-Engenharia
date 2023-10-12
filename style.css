@@ -74,7 +74,8 @@ i {
     font-size: 34px;
   }
   .header-logo img {
-    width: 160px;
+    width: 200px;
+    padding-left: 100px;
     margin-top: 46px;
   }
   .header-button {
